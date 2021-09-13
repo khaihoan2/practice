@@ -1,9 +1,7 @@
 
 package com.company.view;
-import com.company.controller.ContactManagement;
+import com.company.controller.ContactsManagement;
 import com.company.model.Contact;
-import com.company.view.MenuContact.*;
-import com.company.view.MenuContact;
 
 import java.io.*;
 import java.util.Arrays;
@@ -13,7 +11,7 @@ import java.util.Scanner;
 public class MenuContact {
 
     public static Scanner scanner = new Scanner(System.in);
-    public static ContactManagement contactManagement = new ContactManagement();
+    public static ContactsManagement contactManagement = new ContactsManagement();
     public static Contact contact = new Contact();
 
     static {

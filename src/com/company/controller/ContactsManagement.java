@@ -9,7 +9,7 @@ import java.util.List;
 import static com.company.view.MenuContact.scanner;
 
 
-public class ContactManagement {
+public class ContactsManagement {
     private final List<Contact> contactList = new ArrayList<>();
 
     public List<Contact> getContactList() {
@@ -22,7 +22,7 @@ public class ContactManagement {
 
     public void showAll() {
         if (contactList.isEmpty()) {
-            System.out.println("Không có sản phẩm nào hết trơn");
+            System.out.println("Không có thông tin nào hết");
         }
         int count = 0;
         for (Contact contact : contactList) {
